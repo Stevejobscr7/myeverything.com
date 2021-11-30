@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    background-color: tan;
+    font-family: 'Roboto' , sans-serif;
+}
+ .singup-box{
+     width: 360px;
+     height: 620px;
+     margin: auto;
+     background-color: maroon;
+     border-radius: 3px;
+ }
+
+ .Login-Box{
+
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: darkkhaki;
+ }
+
+ h1{
+     text-align: center;
+     padding-top: 15px;
+ }
+ h4{
+     text-align: center;
+ }
+ form{
+     width: 300px;
+     margin-left: 20px;
+ }
+
+ form label{
+     display: flex;
+     margin-top: 20px;
+     font-size: 18px;
+ }
+ form input{
+     width: 100%;
+     padding: 7px;
+     border: none;
+     border: 1px solid rgb(99, 25, 25);
+     border-radius: 6px;
+     outline: none;
+ }
+
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: darkred;
+    font-size: 18px;
+} 
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2{
+    text-align: center;
+    color: darkgreen;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.para-2 a{
+    color: #49c1a2;
+}
+</style>
+<body>
+    <div id="result"></div>
+
+    <div class="sing-up">
+        <h1>Sign Up</h1>
+        <h4>It is free and only and only takes a minute</h4>
+        <form>
+            <label>First name</label>
+            <input type="text" placeholder="">
+            <label>Last name</label>
+            <input type="text" placeholder="">
+            <label>Email</label>
+            <input type="email" placeholder="">
+            <label>Passsword</label>
+            <input type="password" placeholder="">
+            <label>Confirm Passsword</label>
+            <input type="password" placeholder="">
+            <a href="Table.html">Sumbit</a>
+            <div class="form-group">
+                <span id="captcha-error"class="
+                text-danger"></span>
+        </form>
+        <p>By clicking the Singup button, you agree to our 
+            <a href="Tanishq.txt">Terms and Condition</a> and <a href="Privacy.txt">Policy and Privacy</a>
+        </p>
+    </div>
+    <p class="para-2">Alredy have an account (alredy a user) <a href="login.html">Login here</a></p> 
+</body>
+</html>
